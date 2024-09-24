@@ -1,8 +1,7 @@
 import axios from "axios";
 import useAxios from "../../hooks/useAxios";
 
-// const apiUrl = "https://monkfish-app-z9uza.ondigitalocean.app/bcard2/users";
-const apiUrl = "http://localhost:8181/users";
+const apiUrl = "https://cardserver-59hd.onrender.com/users";
 
 const login = async (userLogin) => {
     try {

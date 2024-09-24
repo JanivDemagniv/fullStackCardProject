@@ -1,8 +1,7 @@
 import axios from "axios";
 import useAxios from "../../hooks/useAxios";
 
-// export const apiUrl = "https://monkfish-app-z9uza.ondigitalocean.app/bcard2/cards";
-export const apiUrl = "http://localhost:8181/cards";
+export const apiUrl = "https://cardserver-59hd.onrender.com/cards";
 
 useAxios()
 
